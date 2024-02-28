@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wilpattu.css">
+    <link rel="stylesheet" href="./styles/footerstyles.css">
+    <link rel="stylesheet" href="./styles/headerstyles.css">
+    <title>Sri Lankan Wildlife</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpeg">
+</head>
+
+<body>
+    <header>
+        <!--Navigation bar-->
+        <div class="logo">
+            <a href="index.html">
+                <img id="logo" src="images/logo.jpeg" alt="Logo">
+              </a>
+        </div>
+
+        <!--Menu toggle-->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="dwc.html">Department of Wildlife</a></li>
+                <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                <li class="dropdown">
+                    <a href="animals.html">Animals in Sri Lanka</a>
+                    <div class="dropdown-menu">
+                        <a href="animals.html">Animals in Sri Lanka</a>
+                        <a href="yala.html">Yala National Park</a>
+                        <a href="wilpattu.html" class="active">Wilpattu National Park</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <main>
+            <section>
+                <h1 class="anih">Welcome to Wilpattu National Park</h1>
+                <p class="anih">Wilpattu National Park is the largest national park in Sri Lanka. It is located in the northwest
+                    coast lowland dry zone of Sri Lanka. The park is index to a variety of wildlife including elephants,
+                    leopards, sloth bears, water buffalo, and spotted deer.</p>
+                <img src="images/wilpattu-entrance.jpg" alt="Wilpattu National Park" class="yalaimg">
+            </section>
+            <section>
+                <h2 class="anih">Animals of Wilpattu National Park</h2>
+                <p class="anih">Wilpattu National Park is index to a variety of animals including:</p>
+                <ul class="bucket-c">
+                    <li>Elephants</li>
+                    <li>Leopards</li>
+                    <li>Sloth bears</li>
+                    <li>Water buffalo</li>
+                    <li>Spotted deer</li>
+                </ul>
+                
+                <div class = "slider">
+
+                </div>
+            </section>
+            <section>
+                <h2 class="anih">Visiting Wilpattu National Park</h2>
+                <p class="anih">Wilpattu National Park is open to visitors from 6:00 AM to 6:00 PM. Visitors are required to obtain a
+                    permit from the Department of Wildlife Conservation before entering the park. The park is closed
+                    during the months of September and October due to the monsoon season.</p>
+                <img src="images/R.jpg" alt="Visiting Wilpattu National Park">
+            </section>
+
+            <section>
+                <h2 class="anih">History</h2>
+                <p class="anih">The Mahavansa records that in 543 BC Prince Vijaya landed at Tambapanni now known as Kudrimalai Point
+                    (Horse Point), established the Sinhalese kingdom in Tambapanni and founded the Sinhala nation. In
+                    1905 the area was designated a sanctuary and in 1938 it was upgraded to the National Park status.'
+                    Kudrimalai, or Horse Point, was visited by a subject of Emperor Claudius in 47 AD, who was blown off
+                    course by the monsoon. The local king later sent his own envoys to Rome during the time of Pliny.
+                </p>
+                <img src="images/3b0d848ae3fce77932df19de00bc5f26.jpg" alt="wilpattu map" class="yalaimg">
+
+            </section>
+
+            <!--Buttons for yala and wilpattu-->
+            <div class="button-container">
+                <button class="button" onclick="window.location.href='yala.html'">
+                    <span>Yala National Park</span>
+                </button>
+
+                <button class="button" onclick="window.location.href='wilpattu.html'">
+                    <span>Wilpattu National Park</span>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer">
+        <div class="footer-container social-media-links">
+            <ul>
+                <li><a href="https://www.facebook.com/login/"><img src="socialmedia/facebook.png" alt="facebook"></a>
+                </li>
+                <li><a href="https://www.instagram.com/"><img src="socialmedia/instagram.png" alt="instagram"></a>
+                </li>
+                <li><a href="https://www.youtube.com/"><img src="socialmedia/youtube.png" alt="youtube"></a></li>
+                <li><a href="https://twitter.com/i/flow/login"><img src="socialmedia/twitter.png" alt="twitter"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/index"><img src="socialmedia/linkedin.png" alt="linkedin"></a>
+                </li>
+            </ul>
+        </div><!-- .container social-media-links -->
+        <div class="copyright">
+            <a link rel="icon" type="image/x-icon" href="images/logo.jpeg"></a>
+            <p>Copyright © 2024 Sri Lankan Wildlife</p>
+            <ul>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="conditions.html">Terms & Conditions</a></li>
+                <li><a href="policy.html">Policy</a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./scripts/headerscript.js"></script>
+</body>
+
+</html>
